@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css/aurlycv.css">
+    <script src="js/aurlycv.js"></script>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="cv-header">
+            <img src="images/aurly.png" alt="Profile Picture">
+            <h1>Aurly Dahan</h1>
+            <p>Email: aurlydahan@gmail.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Main St, Haifa, Israel</p>
+            <p>LinkedIn: www.linkedin.com/in/aurlydahan</p>
+            
+        </div>
+        <div class="cv-section">
+            <h2>Objective</h2>
+            <p>Strong understanding of manual testing, basic knowledge of automation testing tools, and proficiency in bug tracking and reporting, 5 years of expert.</p>
+        </div>
+        <div class="cv-section">
+            <h2>Experience</h2>
+            <p>Tech Solutions Ltd., Tel Aviv, Israel
+                June 2022 - Present</p>
+            <ul>
+                <li>Developed test plans and cases, covering functional and regression testing.</li>
+                <li>Contributed to Agile sprints, prioritized issues, and provided detailed reports.</li>
+                <li>Facilitated knowledge-sharing initiatives within the team.</li>
+            </ul>
+        </div>
+        <div class="cv-section">
+            <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science
+        Tel Aviv University, Tel Aviv, Israel</p>
+        </div>
+        <div class="cv-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Proficient in software testing methodologies and tools.</li>
+                <li>Strong analytical and problem-solving skills.</li>
+                <li>Familiarity with Agile development methodologies.</li>
+            </ul>
+        </div>
+        <div class="cv-section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Hebrew: Fluent</li>
+                <li>English: Proficient </li>
+            </ul>
+        </div>
+        <button id="set-interview-btn">Set Interview</button>
+    </div>
+    <div id="interview-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Set Interview</h2>
+            <form id="interview-form">
+                <label for="interview-date">Date:</label>
+                <input type="date" id="interview-date" required><br>
+                <label for="interview-time">Time:</label>
+                <input type="time" id="interview-time" required><br>
+                <label for="interview-note">Note:</label>
+                <textarea id="interview-note" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
